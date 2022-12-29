@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.acc.GuesserGame.AppTest" time="0.074" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="MS932"/>
+    <property name="java.class.path" value="E:\Avensys\Git\GuesserGameSpring\GuesserGame\target\test-classes;E:\Avensys\Git\GuesserGameSpring\GuesserGame\target\classes;C:\Users\TC\.m2\repository\org\springframework\spring-core\6.0.0\spring-core-6.0.0.jar;C:\Users\TC\.m2\repository\org\springframework\spring-jcl\6.0.0\spring-jcl-6.0.0.jar;C:\Users\TC\.m2\repository\org\springframework\spring-context\6.0.0\spring-context-6.0.0.jar;C:\Users\TC\.m2\repository\org\springframework\spring-aop\6.0.0\spring-aop-6.0.0.jar;C:\Users\TC\.m2\repository\org\springframework\spring-expression\6.0.0\spring-expression-6.0.0.jar;C:\Users\TC\.m2\repository\org\springframework\spring-beans\6.0.0\spring-beans-6.0.0.jar;C:\Users\TC\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\TC\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="user.country.format" value="JP"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="E:\Spring Tools Suite 4.17.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\TC\AppData\Local\Temp\surefire7575662725777088093\surefirebooter10296547545066804628.jar C:\Users\TC\AppData\Local\Temp\surefire7575662725777088093 2022-12-29T13-44-10_950-jvmRun1 surefire15391137349279534770tmp surefire_014573652023365734129tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\Avensys\Git\GuesserGameSpring\GuesserGame\target\test-classes;E:\Avensys\Git\GuesserGameSpring\GuesserGame\target\classes;C:\Users\TC\.m2\repository\org\springframework\spring-core\6.0.0\spring-core-6.0.0.jar;C:\Users\TC\.m2\repository\org\springframework\spring-jcl\6.0.0\spring-jcl-6.0.0.jar;C:\Users\TC\.m2\repository\org\springframework\spring-context\6.0.0\spring-context-6.0.0.jar;C:\Users\TC\.m2\repository\org\springframework\spring-aop\6.0.0\spring-aop-6.0.0.jar;C:\Users\TC\.m2\repository\org\springframework\spring-expression\6.0.0\spring-expression-6.0.0.jar;C:\Users\TC\.m2\repository\org\springframework\spring-beans\6.0.0\spring-beans-6.0.0.jar;C:\Users\TC\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\TC\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\TC"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="E:\Spring Tools Suite 4.17.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="E:\Avensys\Git\GuesserGameSpring\GuesserGame"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\TC\AppData\Local\Temp\surefire7575662725777088093\surefirebooter10296547545066804628.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="user.name" value="TC"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="MS932"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="localRepository" value="C:\Users\TC\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\TC\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="E:\Avensys\Git\GuesserGameSpring\GuesserGame"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="ja"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="MS932"/>
+    <property name="java.library.path" value="E:\Spring Tools Suite 4.17.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:/Spring Tools Suite 4.17.0.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;E:/Spring Tools Suite 4.17.0.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\oraclexe\app\oracle\product\10.2.0\server\bin;.;C:\tibco\tibrv\8.4\bin;C:\ProgramData\Oracle\Java\javapath;C:\Java\jdk1.8.0_60\bin;C:\Windows;C:\Windows\system32;C:\Program Files (x86)\Liquid Technologies\Liquid XML 2014\XmlDataBinder12\Redist12\cpp\win32\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;.;C:\Ruby187\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\OpenSSL\bin;C:\Java\jdk1.8.0_60\bin;C:\Users\TC\AppData\Local\Microsoft\WindowsApps;C:\Users\TC\AppData\Roaming\npm;C:\Users\TC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\TC\AppData\Local\GitHubDesktop\bin;E:\Spring Tools Suite 4.17.0.RELEASE;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.acc.GuesserGame.AppTest" time="0.003"/>
+</testsuite>
