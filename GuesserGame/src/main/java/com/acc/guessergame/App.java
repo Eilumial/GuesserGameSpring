@@ -1,4 +1,4 @@
-package com.acc.GuesserGame;
+package com.acc.guessergame;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -11,9 +11,10 @@ public class App
 {
     public static void main( String[] args )
     {
-    	ApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig.class);
+    	//ApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig.class);
+    	ApplicationContext context = new AnnotationConfigApplicationContext(Umpire.class);
     	
-    	Umpire u = context.getBean("umpire", Umpire.class);
+    	Umpire u = context.getBean("umpireBean", Umpire.class);
     	
     	u.playGame();
     }

@@ -1,4 +1,4 @@
-package com.acc.GuesserGame;
+package com.acc.guessergame;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -9,14 +9,14 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
 //@ComponentScan(basePackages = "com.acc.spring3")
-@Configuration
+//@Configuration
 public class BeanConfig {
 
-	@Bean("umpire")
-	public Umpire umpireBean() {
-		Umpire umpire = new Umpire(playerBean(), playerBean(), playerBean(), guesserBean());
-		return umpire;
-	}
+//	@Bean("umpire")
+//	public Umpire umpireBean() {
+//		Umpire umpire = new Umpire(playerBean(), playerBean(), playerBean(), guesserBean());
+//		return umpire;
+//	}
 
 	@Bean("guesser")
 	public Guesser guesserBean() {

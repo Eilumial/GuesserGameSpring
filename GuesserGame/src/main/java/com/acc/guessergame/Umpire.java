@@ -1,14 +1,26 @@
-package com.acc.GuesserGame;
+package com.acc.guessergame;
 
 import java.util.Random;
 import java.util.Scanner;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+
+@Configuration
+@ComponentScan(basePackages = {"com.acc.guessergame"})
+@Component("umpireBean")
 public class Umpire {
 	int numFromGuesser, numFromP1, numFromP2, numFromP3;
+	
+	@Autowired
 	Player p1, p2, p3;
+	@Autowired
 	Guesser g;
-	Scanner sc;
-	Random rand;
+	
+//	Scanner sc;
+//	Random rand;
 	
 	public void playGame() {
 		collectGuesserNum();
@@ -26,14 +38,14 @@ public class Umpire {
 		this.numFromP3 = p3.guessNum(3);
 	}
 
-	public Umpire(Player p1, Player p2, Player p3, Guesser g) {
-		super();
-		System.out.println("Umpire created");
-		this.p1 = p1;
-		this.p2 = p2;
-		this.p3 = p3;
-		this.g = g;
-	}
+//	public Umpire(Player p1, Player p2, Player p3, Guesser g) {
+//		super();
+//		System.out.println("Umpire created");
+//		this.p1 = p1;
+//		this.p2 = p2;
+//		this.p3 = p3;
+//		this.g = g;
+//	}
 
 	public void compare() {
 		int count = 0;
@@ -64,5 +76,9 @@ public class Umpire {
 		} else {
 			System.out.println(output);
 		}
+	}
+
+	public Umpire() {
+		super();
 	}
 }
